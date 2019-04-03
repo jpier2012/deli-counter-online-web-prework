@@ -15,6 +15,6 @@
 
 def line name_list
   message = "The line is currently: "
-  name_list.each_with_index {|name, index| message.}
-
+  name_list.each_with_index {|name, index| message + "#{index}. #{name} "}
+  puts message
 end
