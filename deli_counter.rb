@@ -26,6 +26,6 @@ def take_a_number name_list, name
 end
 
 def now_serving name_list
-    puts name_list.first
+    puts "Currently serving #{name_list.first}."
     name_list.shift
 end
