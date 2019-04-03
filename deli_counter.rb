@@ -24,3 +24,7 @@ def take_a_number name_list, name
   name_list.push name
   puts "Welcome, #{name}. You are number #{name_list.index(name) + 1} in line."
 end
+
+def now_serving name_list
+  puts "There is nobody waiting to be served!" if name_list = []
+end
