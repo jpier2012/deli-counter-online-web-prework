@@ -15,6 +15,10 @@
 
 def line name_list
   message = "The line is currently: "
-  name_list.each_with_index {|name, index| message + "#{index}. #{name} "}
+  name_list.each_with_index {|name, index| message + "#{index + 1}. #{name} "}
   puts message
+end
+
+def take_a_number name_list, name
+  array.
 end
