@@ -31,4 +31,5 @@ def now_serving name_list
   else
     puts name_list.first
     name_list.shift
+  end
 end
