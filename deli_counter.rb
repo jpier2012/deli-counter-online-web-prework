@@ -29,4 +29,6 @@ def take_a_number name_list, name
   puts "Welcome, #{name}. You are number #{name_list.index(name) + 1} in line."
 end
 
+message = "new string"
+
 binding.pry
