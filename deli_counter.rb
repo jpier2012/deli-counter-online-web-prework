@@ -26,5 +26,9 @@ def take_a_number name_list, name
 end
 
 def now_serving name_list
-  puts "There is nobody waiting to be served!" if name_list = []
+  if name_list = []
+    puts "There is nobody waiting to be served!" 
+  else
+    puts name_list.first
+    name_list.shift
 end
