@@ -9,3 +9,12 @@
 #now_serving
   - puts the next person in line and remove them from the front
   - if nil puts "There is nobody waiting to be served!"
+=end
+
+
+
+def line name_list
+  message = "The line is currently: "
+  name_list.each_with_index {|name, index| message.}
+
+end
