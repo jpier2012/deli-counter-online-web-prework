@@ -11,7 +11,7 @@
   - if nil puts "There is nobody waiting to be served!"
 =end
 
-
+name_list = ["a", "b", "c"]
 
 def line name_list
   message = "The line is currently:"
