@@ -26,7 +26,7 @@ def take_a_number name_list, name
 end
 
 def now_serving name_list
-  if name_list == []
+  if name_list.empty? == true
     puts "There is nobody waiting to be served!"
     return
   end
