@@ -23,5 +23,5 @@ def line name_list
 end
 
 def take_a_number name_list, name
-  array.
+  name_list.push(name)
 end
