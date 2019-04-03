@@ -23,5 +23,6 @@ def line name_list
 end
 
 def take_a_number name_list, name
-  name_list.push(name)
+  name_list.push name
+  puts "Welcome, #{name}. You are number #{name_list.index(name)} in line.
 end
