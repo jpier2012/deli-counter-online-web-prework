@@ -11,10 +11,6 @@
   - if nil puts "There is nobody waiting to be served!"
 =end
 
-require 'pry'
-
-name_list = ["a", "b", "c"]
-
 def line name_list
   message = "The line is currently:"
   name_list.each_with_index {|name, index| message << " #{index + 1}. #{name}"}
@@ -28,7 +24,3 @@ def take_a_number name_list, name
   name_list.push name
   puts "Welcome, #{name}. You are number #{name_list.index(name) + 1} in line."
 end
-
-message = "new string"
-
-binding.pry
