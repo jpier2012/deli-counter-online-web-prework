@@ -28,6 +28,7 @@ end
 def now_serving name_list
   if name_list == []
     puts "There is nobody waiting to be served!"
+    return
   end
   puts "Currently serving #{name_list.first}."
   name_list.shift
