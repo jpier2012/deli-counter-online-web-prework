@@ -17,7 +17,7 @@ name_list = ["a", "b", "c"]
 
 def line name_list
   message = "The line is currently:"
-  name_list.each_with_index {|name, index| message & " #{index + 1}. #{name}"}
+  name_list.each_with_index {|name, index| message + " #{index + 1}. #{name}"}
   if name_list == []
     message = "The line is currently empty."
   end
